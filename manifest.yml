@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pizzaria_it
+  host: pizzariainteracao
+  disk_quota: 1024M
+  services:
+  - Conversation-co
+  - pizzaria_it-cloudantNoSQLDB
